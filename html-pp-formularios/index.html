@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <main>
+        <fieldset>
+            <h1>El club viejuner</h1>
+            <p>
+                Nombre: <input autofocus type="text" placeholder="Ingresa tu nombre..." required ><br>
+                Apellidos: <input type="text" placeholder="Ingresa tus apellidos..." required><br>
+                Edad: <input type="number" placeholder="Ingresa tu edad..." required><br>
+                Sexo: <input type="radio" name=genero value="femenino">femenino<input type="radio" name=genero
+                    value="masculino" required>masculino <br>
+                Me siento viejuner? <input type="checkbox" name="viejuner">Si<input type="checkbox" name="viejuner">No
+                <br>
+                Escribe algo sobre ti: <br> <textarea name="text" cols="30" rows="10" required></textarea>
+            </p>
+            <h3>Tus circunstancias</h3>
+            <p>
+                Correo Electronico: <input type="email" placeholder="Ingresa tu e-mail..."><br>
+                Telefono: <input type="tel" id="tlf" name="tlf" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+                    placeholder="Introduce telefono..." required />
+            <p><button type="submit">Enviar</button></p>
+        </fieldset><br>
+        <fieldset>
+            <h1>Los ladronzuelos de bicicletas</h1>
+            <p>
+                Dia: <input type="date"> <br>
+                Hora: <input type="time"> <br>
+                Color de bicicleta: <input type="text"> <br>
+                Rango de precio: <span>$100</span><input type="range" min="$100" max="$5000"><span>$5000</span> <br>
+                Tipo de Bicicleta: <label for="tipoBicicleta">
+                    <select id="tipoBicicleta" name="tipoBicicleta">
+                        <option value="Señorial">PASEO</option>
+                        <option value="Señorial">Señorial</option>
+                        <option value="Anti-plebeyos">Anti-plebeyos</option>
+                        <option value="PorEncimaDelHombro">PorEncimaDelHombro</option>
+                        <option value="MONTAÑA">MONTAÑA</option>
+                        <option value="Gamusinos">Gamusinos</option>
+                        <option value="Hueleflores premium">Hueleflores premium</option>
+                        <option value="Fango lover">Fango lover</option>
+                        <option value="CARRERAS">CARRERAS</option>
+                        <option value="Metroymedio">Metroymedio</option>
+                        <option value=" de la tarde. Fluorescente edition">3 de la tarde. Fluorescente edition</option>
+                        <option value="Grupitors">Grupitors</option>
+                    </select><br>
+                    Accesorios: 
+                    <select multiple="multiple" id="myMulti">
+                        <option>Ruedines</option>
+                        <option>Pegatinas</option>
+                        <option>Cestita</option>
+                        <option>Bomba de aire</option>
+                        <option>Timbre</option>
+                        <option>Foco</option>
+                    </select><br>
+                    Marca de la Bicicleta: 
+                    <select id="marcaBici" name="marcaBici" placeholder="Marca de bici">
+                        <option value="specialized">specialized</option>
+                        <option value="trek">trek</option>
+                        <option value="merida">merida</option>
+                        <option value="scott">scott</option>
+                        <option value="giant">giant</option>
+                        <option value="cube">cube</option>
+                        <option value="lapierre">lapierre</option>
+                        <option value="orbea">orbea</option>
+                        <option value="cannondale">cannondale</option>
+                        <option value="bmc">bmc</option>
+                        <option value="canyon">canyon</option>
+                        <option value="look">look</option>
+                        <option value="protek">protek</option>
+                        <option value="megamo">megamo</option>
+                        <option value="pinarello">pinarello</option>
+                        <option value="bianchi">bianchi</option>
+                        <option value="bh">bh</option>
+                        <option value="factor">factor</option>
+                        <option value="ghost">ghost</option>
+                        <option value="cervélo">cervélo</option>
+                        <option value="argon">argon</option>
+
+    </main>
+</body>
+</html>
